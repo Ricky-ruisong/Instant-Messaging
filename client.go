@@ -101,7 +101,6 @@ func (client*Client) PrivateChat(){
 	for remoteName != "exit"{
 		fmt.Println("请输入消息内容，exit退出")
 		fmt.Scanln(&chatMsg)
-
 		for chatMsg != "exit"{
 			//发送给服务器
 			if len(chatMsg) != 0{
