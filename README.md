@@ -15,3 +15,6 @@ go build -o server main.go user.go server.go
 
 ## 客户端编译
 go build -o client client.go
+
+### 原项目
+author 刘丹冰Aceld
