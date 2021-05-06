@@ -36,7 +36,6 @@ func (this*User) Online(){
 	this.server.mapLock.Lock()
 	this.server.OnLineMap[this.Name] = this
 	this.server.mapLock.Unlock()
-
 	//广播当前用户上限的消息
 	this.server.BroadCast(this,"已上线")
 }
