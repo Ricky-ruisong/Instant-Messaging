@@ -92,9 +92,7 @@ func (this *Server)Handler(conn net.Conn){
 		case <-time.After(time.Second *300):
 			//已经超时，将当前客户端强制关闭
 			user.SendMsg("你被踢了")
-
 			close(user.C)
-
 			conn.Close()
 
 			//退出当前handler
