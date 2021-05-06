@@ -1,4 +1,4 @@
-# Local-instant-messaging
+# Instant-Messaging
 go语言实现socket通讯demo
 
 ## 主要包括以下功能：
